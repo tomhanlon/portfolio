@@ -19,7 +19,7 @@ portfolioApp.controller('PortfolioCtrl', function($scope) {
     'technologies': ['ruby on rails', 'javascript', 'cdyne', 'redis'],
     'description': 'Lucas ipsum dolor sit amet watto qui-gon c-3po antilles darth organa solo skywalker jade jinn. Fisto han jar yoda darth fett. Palpatine mara padmé moff anakin skywalker fett jabba. Hutt antilles alderaan grievous solo anakin gonk hutt. Darth kamino mon hutt antilles moff solo amidala darth. Thrawn sidious darth moff. Windu droid vader vader. Hutt ahsoka padmé solo ackbar mandalorians darth leia. Binks owen cade grievous droid. Skywalker moff darth jabba owen. Palpatine baba hutt boba jango ewok kenobi.',
     'live_link': 'http://www.google.com',
-    'github_link': 'https://github.com/RollWave07/CareWell',
+    'github_link': 'www.constituentexts.com',
     'image_url': 'http://www.placecage.com/835/318?random'
   },
   { 'name': 'Carewell',
