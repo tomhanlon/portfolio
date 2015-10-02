@@ -61,4 +61,14 @@ portfolioApp.controller('PortfolioCtrl', function($scope) {
     'image_url': 'http://www.placecage.com/835/318?random'
   }
   ];
+  
+  $scope.technologies = [];
+    angular.forEach($scope.projects, function(project){
+    angular.forEach(project.technologies, function(tech){
+      if ($scope.technologies.indexOf(tech) === -1) {
+        $scope.technologies.push(tech);
+      }
+    });
+  });
+
 });

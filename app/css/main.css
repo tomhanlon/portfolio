@@ -35,6 +35,9 @@ a:hover {
   -moz-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
 }
+.sidebar .filters {
+  text-transform: capitalize;
+}
 .main-image {
   border: 6px solid #fff;
   border-radius: 2px;
