@@ -1,0 +1,42 @@
+<!doctype html>
+<html ng-app="portfolioApp">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body ng-controller="PortfolioCtrl">
+		<div class="container">
+			<div class="sidebar">
+				<img src="img/logo.png"/>
+				<input placeholder="Type to search"></input>
+			<div class="filters" ng-repeat="project in projects">
+				<a href="#">{{project.technologies}}</a>
+			</div>	
+			</div>
+			<div class="main">
+				<div class="main-image"></div>
+				<div class="projects-container">
+					<div class="project" ng-repeat="project in projects">
+						<div class="project-thumbnail">
+							<a href="">
+								<img ng-src="{{project.thumbnail_url}}" />
+							</a>
+						</div>
+						<div class="project-details">
+							<h3><a href="">{{project.name}}</a></h3>
+							<p>{{project.description | limitTo: 115}}{{project.description.length > 20 ? '...' : ''}}</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div id="footer-wrap">
+			<footer id="footer"></footer>
+		</div>
+		<script src="../bower_components/angular/angular.js"></script>
+		<script src="js/controllers.js"></script>
+	</body>
+</html>
