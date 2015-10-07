@@ -12,9 +12,9 @@
 			<div class="sidebar">
 				<img src="img/logo.png"/>
 				<input placeholder="Type to search" ng-model="query"></input>
-			<div class="filters" ng-repeat="tech in technologies | orderBy : +name">
-				<a href="#">{{tech}}</a>
-			</div>	
+				<div class="filters" ng-repeat="category in categories | orderBy : +name ">
+					<a href="#">{{category}}</a>
+				</div>	
 			</div>
 			<div class="main">
 				<div class="main-image"></div>
