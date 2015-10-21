@@ -13,6 +13,10 @@ portfolioApp.config(['$routeProvider', function($routeProvider){
 			templateUrl: 'partials/project-detail.html',
 			controller: 'ProjectDetailCtrl'
 		}).
+		when('/about', {
+			templateUrl: 'partials/project-detail.html',
+			controller: 'ProjectDetailCtrl'
+		}).
 		otherwise({
 			redirectTo: '/'
 		});

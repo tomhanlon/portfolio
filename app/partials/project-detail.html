@@ -1,1 +1,23 @@
-TBD: detail view for <span>{{name}}</span>
+<div class="sidebar">
+	<img src="img/logo.png"/>
+	<!-- <input placeholder="Type to search" ng-model="query"></input>
+	<div class="filters" ng-repeat="category in categories | orderBy : +name ">
+		<a href="#">{{category}}</a>
+	</div>	 -->
+</div>
+<div class="main" ng-repeat="project in projects | filter: project">
+	<div class="main-image"></div>
+	<div class="projects-container">
+		<div class="project">
+			<div class="project-thumbnail">
+				<a href="">
+					<img ng-src="{{project.thumbnail_url}}" />
+				</a>
+			</div>
+			<div class="project-details">
+				<h3><a ng-href="#/projects/{{project.name}}">{{project.name}}</a></h3>
+				<p>{{project.description | limitTo: 115}}{{project.description.length > 20 ? '...' : ''}}</p>
+			</div>
+		</div>
+	</div>	
+</div>
