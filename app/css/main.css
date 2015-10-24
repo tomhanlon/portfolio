@@ -20,6 +20,7 @@ a:hover {
   height: 1542px;
   margin: 60px auto;
 }
+/* Sidebar */
 .sidebar {
   width: 200px;
   height: 1260px;
@@ -43,6 +44,16 @@ a:hover {
 }
 .sidebar .filters {
   text-transform: capitalize;
+}
+.sidebar-links {
+  margin-top: 20px;
+  padding: 10px 0px;
+}
+.sidebar-links a {
+  display: block;
+}
+.sidebar .search {
+  margin-top: 20px;
 }
 .main-image {
   border: 6px solid #fff;
@@ -89,13 +100,17 @@ a:hover {
   width: 740px;
   float: right;
 }
+.border-top {
+  border-top: 1px solid #d4cdc7;
+}
+.border-bottom {
+  border-bottom: 1px solid #d4cdc7;
+}
 .page-heading {
   padding: 10px 0px;
   width: 740px;
   position: relative;
   margin-bottom: 30px;
-  border-top: 1px solid #d4cdc7;
-  border-bottom: 1px solid #d4cdc7;
 }
 .page-heading h1 {
   margin: 0;
