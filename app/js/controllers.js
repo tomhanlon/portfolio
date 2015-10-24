@@ -18,14 +18,22 @@ portfolioControllers.controller('PortfolioCtrl', function($scope, $http) {
       }
     });
   });
-});
+})
 
+portfolioControllers.directive('searchInputKeypress', function($location){
+  return function (scope, element, attrs) {
+    element.bind("keydown keypress keyup", function (event) {
+      scope.$apply(function (){
+        $location.url('/');
+      });
+    });
+  };
+});
 portfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
     $http.get('projects/projects.json').success(function(data){
       $scope.projects = data;
       $scope.project = $routeParams.name;
-      // $scope.project.descriptionHtml = JSON.stringify($scope.project.description);
     });
   }
 ]);
