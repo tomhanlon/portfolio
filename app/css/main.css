@@ -2,6 +2,12 @@ body {
   background-color: #eae7e4;
   font: 16px/1.8 'Source Sans Pro', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+h1, h2, h3, h4, h5, h6 {
+  color: #3e3e3e;
+}
+p {
+  color: #554e4c;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -45,7 +51,6 @@ a:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 0 0 transparent, 0 0 0 transparent;
-  background: url('https://unsplash.it/740/501/?random');
   height: 501px;
   width: 740px;
   float: right;
@@ -78,6 +83,28 @@ a:hover {
 .project-details p {
   font-size: 0.813em;
   line-height: 1.6em;
+}
+/* Project Detail */
+.project-main {
+  width: 740px;
+  float: right;
+}
+.page-heading {
+  padding: 10px 0px;
+  width: 740px;
+  position: relative;
+  margin-bottom: 30px;
+  border-top: 1px solid #d4cdc7;
+  border-bottom: 1px solid #d4cdc7;
+}
+.page-heading h1 {
+  margin: 0;
+  font-size: 1.625em;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+.project-main .main-image {
+  float: none;
 }
 #footer-wrap {
   background-color: #2d2d2d;

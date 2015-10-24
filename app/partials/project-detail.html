@@ -7,19 +7,12 @@
 		<a href="#">{{category}}</a>
 	</div>	 -->
 </div>
-<div class="main" ng-repeat="project in projects | filter: project">
-	<div class="main-image"></div>
-	<div class="projects-container">
-		<div class="project">
-			<div class="project-thumbnail">
-				<a href="">
-					<img ng-src="{{project.thumbnail_url}}" />
-				</a>
-			</div>
-			<div class="project-details">
-				<h3><a ng-href="#/projects/{{project.name}}">{{project.name}}</a></h3>
-				<p>{{project.description | limitTo: 115}}{{project.description.length > 20 ? '...' : ''}}</p>
-			</div>
-		</div>
-	</div>	
+<div class="project-main" ng-repeat="project in projects | filter: project">
+	<div class="page-heading">
+  	<h1 class="inline-block">{{project.name}}</h1>
+  </div>
+	<div class="main-image">
+		<img ng-src="{{project.image_url}}"/>
+	</div>
+	<p>{{project.description}}</p>
 </div>

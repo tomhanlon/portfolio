@@ -12,7 +12,7 @@
 	<div class="projects-container">
 		<div class="project" ng-repeat="project in projects | filter: query">
 			<div class="project-thumbnail">
-				<a href="">
+				<a ng-href="#/projects/{{project.name}}">
 					<img ng-src="{{project.thumbnail_url}}" />
 				</a>
 			</div>
