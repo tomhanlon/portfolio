@@ -11,7 +11,12 @@
 		<div class="container">
 			<aside class="sidebar">
 				<a href="#/"><img src="img/logo.png"/></a>
-				<!-- <input placeholder="Type to search" ng-model="query" ng-keydown="TODO"></input> -->
+				<div class="sidebar-links border-top border-bottom">
+					<a href="#/">Home</a>
+					<a href="#/">About</a>
+					<a href="#/">Contact</a>
+				</div>
+				<input class="search" placeholder="Type to search" ng-model="query" search-input-keypress="alert(1);"></input>
 				<!-- <div class="filters" ng-repeat="category in categories | orderBy : +name ">
 					<a href="#">{{category}}</a>
 				</div>	 -->
