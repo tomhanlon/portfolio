@@ -1,7 +1,9 @@
 'use strict';
 
 /* Controllers */
-var portfolioControllers = angular.module('portfolioControllers', [])
+var portfolioControllers = angular.module('portfolioControllers', [
+  'ngSanitize'
+  ]);
 
 portfolioControllers.controller('PortfolioCtrl', function($scope, $http) {
   $http.get('projects/projects.json').success(function(data){
@@ -21,8 +23,9 @@ portfolioControllers.controller('PortfolioCtrl', function($scope, $http) {
 portfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
     $http.get('projects/projects.json').success(function(data){
-     $scope.projects = data;
-     $scope.project = $routeParams.name;
+      $scope.projects = data;
+      $scope.project = $routeParams.name;
+      // $scope.project.descriptionHtml = JSON.stringify($scope.project.description);
     });
   }
 ]);

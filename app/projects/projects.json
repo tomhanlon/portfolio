@@ -12,7 +12,7 @@
     "name": "iVote",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["ruby on rails"],
-    "description": "Lucas ipsum dolor sit amet watto qui-gon c-3po antilles darth organa solo skywalker jade jinn. Fisto han jar yoda darth fett. Palpatine mara padmé moff anakin skywalker fett jabba. Hutt antilles alderaan grievous solo anakin gonk hutt. Darth kamino mon hutt antilles moff solo amidala darth. Thrawn sidious darth moff. Windu droid vader vader. Hutt ahsoka padmé solo ackbar mandalorians darth leia. Binks owen cade grievous droid. Skywalker moff darth jabba owen. Palpatine baba hutt boba jango ewok kenobi.",
+    "description": "iVote is a Ruby on Rails app that allows users to register to vote by text message. After texting 'Register' to a shortcode (which interfaces the application through the use of CDYNE's SMS API), users are instructed to provide mailing address information to register to vote. News articles on the application: http://kxan.com/2015/08/05/travis-county-waiting-for-guidance-on-voter-id-law-appeal/, http://www.govtech.com/dc/articles/Travis-County-Texas-Entices-Millennials-to-Register-to-Vote-via-Text.html, http://www.austinchronicle.com/news/2015-08-14/travis-voter-registrar-tests-text-request/, <a href='http://kut.org/post/you-can-now-register-vote-text-travis-county'>News Article</a>",
     "live_link": "http://www.google.com",
     "github_link": "www.constituentexts.com",
     "image_url": "https://unsplash.it/728/489?random"
