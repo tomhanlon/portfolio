@@ -6,4 +6,17 @@
 		<img ng-src="{{project.image_url}}"/>
 	</div>
 	<p ng-bind-html="project.description">{{project.description}}</p>
+	<div class="technologies">
+		<h3>Technologies used:</h3>
+		<p>{{project.categories}}</p>
+		<span ng-if="{{project.live_link}} || {{project.github_link}}">
+			<h3>Links:</h3>	
+		</span>
+		<span ng-if="{{project.live_link}}">
+			<p><a ng-href="{{project.live_link}}" target="_blank">Live Link</a></p>	
+		</span>
+		<span ng-if="{{project.github_link}}">
+			<p><a ng-href="{{project.github_link}}" target="_blank">Source Code</a></p>
+		</span>
+	</div>
 </div>
