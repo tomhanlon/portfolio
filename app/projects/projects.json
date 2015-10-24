@@ -3,7 +3,7 @@
     "name": "This Very Portfolio",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["angular", "javascript"],
-    "description": "Lucas ipsum dolor sit amet watto qui-gon c-3po antilles darth organa solo skywalker jade jinn. Fisto han jar yoda darth fett. Palpatine mara padmé moff anakin skywalker fett jabba. Hutt antilles alderaan grievous solo anakin gonk hutt. Darth kamino mon hutt antilles moff solo amidala darth. Thrawn sidious darth moff. Windu droid vader vader. Hutt ahsoka padmé solo ackbar mandalorians darth leia. Binks owen cade grievous droid. Skywalker moff darth jabba owen. Palpatine baba hutt boba jango ewok kenobi.",
+    "description": "The first version of my portfolio was built on Wordpress but after seeing how much of a hassle it is to extract data from the database I realized I wanted something leaner. This new portfolio uses AngularJS to feel fast and responsive.",
     "github_link": "https://github.com/tomhanlon/portfolio",
     "image_url": "https://unsplash.it/728/489?random"
   },
