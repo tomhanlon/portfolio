@@ -4,7 +4,6 @@
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["angular", "javascript"],
     "description": "Lucas ipsum dolor sit amet watto qui-gon c-3po antilles darth organa solo skywalker jade jinn. Fisto han jar yoda darth fett. Palpatine mara padmé moff anakin skywalker fett jabba. Hutt antilles alderaan grievous solo anakin gonk hutt. Darth kamino mon hutt antilles moff solo amidala darth. Thrawn sidious darth moff. Windu droid vader vader. Hutt ahsoka padmé solo ackbar mandalorians darth leia. Binks owen cade grievous droid. Skywalker moff darth jabba owen. Palpatine baba hutt boba jango ewok kenobi.",
-    "live_link": "http://www.google.com",
     "github_link": "https://github.com/tomhanlon/portfolio",
     "image_url": "https://unsplash.it/728/489?random"
   },
@@ -12,26 +11,24 @@
     "name": "iVote",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["ruby on rails"],
-    "description": "iVote is a Ruby on Rails app that allows users to register to vote by text message. After texting 'Register' to a shortcode (which interfaces the application through the use of CDYNE's SMS API), users are instructed to provide mailing address information to register to vote. News articles on the application: http://kxan.com/2015/08/05/travis-county-waiting-for-guidance-on-voter-id-law-appeal/, http://www.govtech.com/dc/articles/Travis-County-Texas-Entices-Millennials-to-Register-to-Vote-via-Text.html, http://www.austinchronicle.com/news/2015-08-14/travis-voter-registrar-tests-text-request/, <a href='http://kut.org/post/you-can-now-register-vote-text-travis-county'>News Article</a>",
-    "live_link": "http://www.google.com",
-    "github_link": "www.constituentexts.com",
+    "description": "I was part of a three-person team that built iVote, a Ruby on Rails application designed to allow users to register to vote by text message. After texting 'Register' to a shortcode (which interfaces with the application through use of <a href='http://cdyne.com/api/phone/sms/' target='_blank'>CDYNE's SMS API</a>), users are instructed to provide mailing address information for volunteers to send them voter registration cards. <br>Local press coverage:<br><ul><li><a href='http://www.govtech.com/dc/articles/Travis-County-Texas-Entices-Millennials-to-Register-to-Vote-via-Text.html' target='_blank'>Travis County, Texas, Entices Millennials to Register to Vote via Text</a></li><li><a href='http://kut.org/post/you-can-now-register-vote-text-travis-county' target='_blank'>You Can Now Register to Vote by Text in Travis County</a></li><li><a href='http://www.austinchronicle.com/news/2015-08-14/travis-voter-registrar-tests-text-request/' target='_blank'>Travis Voter Registrar Tests \"Text Request\"</a></li></ul>",
     "image_url": "https://unsplash.it/728/489?random"
   },
   { 
     "name": "Carewell",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["ruby on rails"],
-    "description": "Lucas ipsum dolor sit amet watto qui-gon c-3po antilles darth organa solo skywalker jade jinn. Fisto han jar yoda darth fett. Palpatine mara padmé moff anakin skywalker fett jabba. Hutt antilles alderaan grievous solo anakin gonk hutt. Darth kamino mon hutt antilles moff solo amidala darth. Thrawn sidious darth moff. Windu droid vader vader. Hutt ahsoka padmé solo ackbar mandalorians darth leia. Binks owen cade grievous droid. Skywalker moff darth jabba owen. Palpatine baba hutt boba jango ewok kenobi.",
-    "live_link": "http://www.google.com",
+    "description": "A student project, Carewell is a Ruby on Rails application designed to manage logistics around the care for elderly family members.",
+    "live_link": "http://carewell.herokuapp.com/",
     "github_link": "https://github.com/RollWave07/CareWell",
     "image_url": "https://unsplash.it/728/489?random"
   },
   { 
     "name": "Weatherpane",
     "thumbnail_url": "https://unsplash.it/230/184?random",
-    "categories": ["geolocation", "api"],
-    "description": "Lucas ipsum dolor sit amet watto qui-gon c-3po antilles darth organa solo skywalker jade jinn. Fisto han jar yoda darth fett. Palpatine mara padmé moff anakin skywalker fett jabba. Hutt antilles alderaan grievous solo anakin gonk hutt. Darth kamino mon hutt antilles moff solo amidala darth. Thrawn sidious darth moff. Windu droid vader vader. Hutt ahsoka padmé solo ackbar mandalorians darth leia. Binks owen cade grievous droid. Skywalker moff darth jabba owen. Palpatine baba hutt boba jango ewok kenobi.",
-    "live_link": "http://www.google.com",
+    "categories": ["geolocation", "api", "ruby", "sinatra"],
+    "description": "This was a quick weekend project Tejas Rawal and I built just for fun. It uses Javascript to grab a user's location coordinates, request weather info for that location and then redirect user to a page with a relevant background for current weather conditions.",
+    "live_link": "http://weatherpane.herokuapp.com/",
     "github_link": "https://github.com/tejas-rawal/WeatherPane_v3",
     "image_url": "https://unsplash.it/728/489?random"
   },
