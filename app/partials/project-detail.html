@@ -1,5 +1,5 @@
 <div class="project-main" ng-repeat="project in projects | filter: project">
-	<div class="page-heading">
+	<div class="page-heading border-top border-bottom">
   	<h1 class="inline-block">{{project.name}}</h1>
   </div>
 	<div class="main-image">
@@ -9,13 +9,13 @@
 	<div class="technologies">
 		<h3>Technologies used:</h3>
 		<p>{{project.categories}}</p>
-		<span ng-if="{{project.live_link}} || {{project.github_link}}">
+		<span ng-if="project.live_link || project.github_link">
 			<h3>Links:</h3>	
 		</span>
-		<span ng-if="{{project.live_link}}">
+		<span ng-if="project.live_link">
 			<p><a ng-href="{{project.live_link}}" target="_blank">Live Link</a></p>	
 		</span>
-		<span ng-if="{{project.github_link}}">
+		<span ng-if="project.github_link">
 			<p><a ng-href="{{project.github_link}}" target="_blank">Source Code</a></p>
 		</span>
 	</div>
