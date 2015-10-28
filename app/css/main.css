@@ -133,3 +133,67 @@ a:hover {
   color: #797979;
   font-size: 0.938em;
 }
+
+/* Media Queries */
+@media screen and (max-width: 414px) {
+  body {
+    position: absolute;
+    width: 100%;
+  }
+  .container {
+    width: 280px;
+    height: auto;
+    margin-top: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    float: none;
+    text-align: center;
+  }
+  .sidebar .logo {
+    width: 280px;
+  }
+  .sidebar img {
+    width: 100%;
+    height: auto;
+  }
+  .main .main-image {
+    display: none;
+  }
+  input.search {
+    display:none;
+  }
+  .projects-container {
+    width: 100%;
+    float: none;
+    margin-right: 0px;
+    margin-top: 25px;
+  }
+  .projects-container .project {
+    margin-right: 0px;
+    width: 100%;
+  }
+  .projects-container .project .project-thumbnail {
+    height: 225px;
+  }
+  .projects-container .project .project-thumbnail img {
+    width: 280px;
+    height: auto;
+  }
+  #footer-wrap {
+    background-color: #2d2d2d;
+  height: 368px;
+}
+#footer {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  padding: 60px 0 0;
+  color: #797979;
+  font-size: 0.938em;
+  }
+}
