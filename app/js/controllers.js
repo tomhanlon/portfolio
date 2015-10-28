@@ -9,7 +9,6 @@ portfolioControllers.controller('PortfolioCtrl', function($scope, $http) {
   $http.get('projects/projects.json').success(function(data){
     $scope.projects = data;
   });
-  
   $scope.categories = [];
     angular.forEach($scope.projects, function(project){
     angular.forEach(project.categories, function(tech){
@@ -29,6 +28,7 @@ portfolioControllers.directive('searchInputKeypress', function($location){
     });
   };
 });
+
 portfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
     $http.get('projects/projects.json').success(function(data){
