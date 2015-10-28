@@ -161,11 +161,24 @@ a:hover {
     width: 100%;
     height: auto;
   }
-  .main .main-image {
-    display: none;
-  }
   input.search {
     display:none;
+  }
+  #footer-wrap {
+    background-color: #2d2d2d;
+    height: 368px;
+  }
+  #footer {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0 0;
+    color: #797979;
+    font-size: 0.938em;
+  }
+  /* Project Index */
+  .main .main-image {
+    display: none;
   }
   .projects-container {
     width: 100%;
@@ -184,16 +197,16 @@ a:hover {
     width: 280px;
     height: auto;
   }
-  #footer-wrap {
-    background-color: #2d2d2d;
-    height: 368px;
+  /* Project Detail */
+  .project-main {
+    width: 280px;
+    float: none;
   }
-  #footer {
-    position: relative;
+  .project-main .page-heading {
     width: 100%;
-    margin: 0 auto;
-    padding: 60px 0 0;
-    color: #797979;
-    font-size: 0.938em;
+    border-top: none;
+  }
+  .project-main .main-image {
+    display: none;
   }
 }
