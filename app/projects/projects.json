@@ -3,7 +3,7 @@
     "name": "This Very Portfolio",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["angular", "javascript"],
-    "description": "The first version of my portfolio was built on Wordpress but after seeing how much of a hassle it is to extract data from the database I realized I wanted something leaner. This new portfolio uses AngularJS to feel fast and responsive.",
+    "description": "The first version of my portfolio was built on Wordpress but after seeing how much of a hassle it is to extract data from the database I realized I wanted something leaner. This new portfolio uses AngularJS to feel fast AF.",
     "github_link": "https://github.com/tomhanlon/portfolio",
     "image_url": "https://unsplash.it/728/489?random"
   },
@@ -27,7 +27,7 @@
     "name": "Carewell",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["ruby on rails"],
-    "description": "A student project, Carewell is a Ruby on Rails application designed to manage logistics around the care for elderly family members.",
+    "description": "An older student project, Carewell is a Ruby on Rails application designed to manage logistics around the care for elderly family members.",
     "live_link": "http://carewell.herokuapp.com/",
     "github_link": "https://github.com/RollWave07/CareWell",
     "image_url": "https://unsplash.it/728/489?random"
