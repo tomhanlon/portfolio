@@ -15,6 +15,15 @@
     "image_url": "https://unsplash.it/728/489?random"
   },
   { 
+    "name": "63rd Street Productions",
+    "thumbnail_url": "https://unsplash.it/230/184?random",
+    "categories": ["ruby on rails"],
+    "description": "A friend and I built a Ruby on Rails app for his friend's uncle who was in charge of a small local theater company in Michigan.",
+    "image_url": "https://unsplash.it/728/489?random",
+    "live_link": "http://63rdstreetproductions.com/",
+    "github_link": "https://github.com/tomhanlon/sixty-third-street-productions"
+  },
+  { 
     "name": "Carewell",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["ruby on rails"],
@@ -36,7 +45,7 @@
     "name": "Babyloader",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["html5", "javascript"],
-    "description": "Lucas ipsum dolor sit amet watto qui-gon c-3po antilles darth organa solo skywalker jade jinn. Fisto han jar yoda darth fett. Palpatine mara padmé moff anakin skywalker fett jabba. Hutt antilles alderaan grievous solo anakin gonk hutt. Darth kamino mon hutt antilles moff solo amidala darth. Thrawn sidious darth moff. Windu droid vader vader. Hutt ahsoka padmé solo ackbar mandalorians darth leia. Binks owen cade grievous droid. Skywalker moff darth jabba owen. Palpatine baba hutt boba jango ewok kenobi.",
+    "description": "This was another quick 'n dirty side project -- a loading bar for a friend who was having a baby. Completely useless but maybe a little fun.",
     "live_link": "http://www.google.com",
     "github_link": "https://github.com/tomhanlon/babyloader",
     "image_url": "https://unsplash.it/728/489?random"
@@ -45,16 +54,9 @@
     "name": "Brisket Battle",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["ruby on rails"],
-    "description": "Lucas ipsum dolor sit amet watto qui-gon c-3po antilles darth organa solo skywalker jade jinn. Fisto han jar yoda darth fett. Palpatine mara padmé moff anakin skywalker fett jabba. Hutt antilles alderaan grievous solo anakin gonk hutt. Darth kamino mon hutt antilles moff solo amidala darth. Thrawn sidious darth moff. Windu droid vader vader. Hutt ahsoka padmé solo ackbar mandalorians darth leia. Binks owen cade grievous droid. Skywalker moff darth jabba owen. Palpatine baba hutt boba jango ewok kenobi.",
-    "live_link": "http://www.google.com",
+    "description": "Here we've got another project that was just for fun--we ordered lunch and a friend and I scaffold a Rails app to quickly count votes on which barbecue place was the crowd favorite. Looking at this now, we could have easily validated a vote by setting a cookie (or requiring a login) but that seemed a little too much for a quick, casual poll.",
+    "live_link": "http://bbq-battle.herokuapp.com/",
     "github_link": "https://github.com/tomhanlon/bbq-battle",
-    "image_url": "https://unsplash.it/728/489?random"
-  },
-  { 
-    "name": "Time Jump",
-    "thumbnail_url": "https://unsplash.it/230/184?random",
-    "categories": ["iOS"],
-    "description": "Lucas ipsum dolor sit amet watto qui-gon c-3po antilles darth organa solo skywalker jade jinn. Fisto han jar yoda darth fett. Palpatine mara padmé moff anakin skywalker fett jabba. Hutt antilles alderaan grievous solo anakin gonk hutt. Darth kamino mon hutt antilles moff solo amidala darth. Thrawn sidious darth moff. Windu droid vader vader. Hutt ahsoka padmé solo ackbar mandalorians darth leia. Binks owen cade grievous droid. Skywalker moff darth jabba owen. Palpatine baba hutt boba jango ewok kenobi.",
     "image_url": "https://unsplash.it/728/489?random"
   }
 ]
