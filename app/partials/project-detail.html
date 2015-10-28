@@ -6,9 +6,13 @@
 		<img ng-src="{{project.image_url}}"/>
 	</div>
 	<p ng-bind-html="project.description">{{project.description}}</p>
-	<div class="technologies">
-		<h3>Technologies used:</h3>
-		<p>{{project.categories}}</p>
+	<div class="optional">
+		<span ng-if="project.categories">
+			<div class="technologies">
+				<h3>Technologies used:</h3>
+				<p>{{project.categories}}</p>
+			</div>
+		</span>
 		<span ng-if="project.live_link || project.github_link">
 			<h3>Links:</h3>	
 		</span>
