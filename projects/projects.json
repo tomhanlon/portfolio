@@ -1,5 +1,5 @@
 [
-  { 
+  {
     "name": "This Very Portfolio",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["angular", "javascript"],
@@ -7,14 +7,14 @@
     "github_link": "https://github.com/tomhanlon/portfolio",
     "image_url": "https://unsplash.it/728/489?random"
   },
-  { 
+  {
     "name": "iVote",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["ruby on rails"],
     "description": "I was part of a three-person team that built iVote, a Ruby on Rails application designed to allow users to register to vote by text message. After texting 'Register' to a shortcode (which interfaces with the application through use of <a href='http://cdyne.com/api/phone/sms/' target='_blank'>CDYNE's SMS API</a>), users are instructed to provide mailing address information for volunteers to send them voter registration cards. <br>Local press coverage:<br><ul><li><a href='http://www.govtech.com/dc/articles/Travis-County-Texas-Entices-Millennials-to-Register-to-Vote-via-Text.html' target='_blank'>Travis County, Texas, Entices Millennials to Register to Vote via Text</a></li><li><a href='http://kut.org/post/you-can-now-register-vote-text-travis-county' target='_blank'>You Can Now Register to Vote by Text in Travis County</a></li><li><a href='http://www.austinchronicle.com/news/2015-08-14/travis-voter-registrar-tests-text-request/' target='_blank'>Travis Voter Registrar Tests \"Text Request\"</a></li></ul>",
     "image_url": "https://unsplash.it/728/489?random"
   },
-  { 
+  {
     "name": "63rd Street Productions",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["ruby on rails"],
@@ -23,7 +23,7 @@
     "live_link": "http://63rdstreetproductions.com/",
     "github_link": "https://github.com/tomhanlon/sixty-third-street-productions"
   },
-  { 
+  {
     "name": "Carewell",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["ruby on rails"],
@@ -32,16 +32,16 @@
     "github_link": "https://github.com/RollWave07/CareWell",
     "image_url": "https://unsplash.it/728/489?random"
   },
-  { 
+  {
     "name": "Weatherpane",
-    "thumbnail_url": "https://unsplash.it/230/184?random",
+    "thumbnail_url": "/img/weatherpane-thumbnail.jpg",
     "categories": ["geolocation", "api", "ruby", "sinatra"],
-    "description": "This was a quick weekend project Tejas Rawal and I built just for fun. It uses Javascript to grab a user's location coordinates, request weather info for that location and then redirect user to a page with a relevant background for current weather conditions.",
+    "description": "This was a quick weekend project my pal Tejas Rawal and I built just for fun. It uses Javascript to grab a user's location coordinates, request weather info for that location and then redirect user to a page with a relevant background for current weather conditions.",
     "live_link": "http://weatherpane.herokuapp.com/",
     "github_link": "https://github.com/tejas-rawal/WeatherPane_v3",
-    "image_url": "https://unsplash.it/728/489?random"
+    "image_url": "/img/weatherpane-detail.jpg"
   },
-  { 
+  {
     "name": "Babyloader",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["html5", "javascript"],
@@ -50,7 +50,7 @@
     "github_link": "https://github.com/tomhanlon/babyloader",
     "image_url": "https://unsplash.it/728/489?random"
   },
-  { 
+  {
     "name": "Brisket Battle",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["ruby on rails"],
