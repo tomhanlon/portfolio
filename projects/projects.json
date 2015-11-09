@@ -1,11 +1,11 @@
 [
   {
     "name": "This Very Portfolio",
-    "thumbnail_url": "https://unsplash.it/230/184?random",
+    "thumbnail_url": "/img/portfolio-thumbnail.png",
     "categories": ["angular", "javascript"],
     "description": "The first version of my portfolio was built on Wordpress but after seeing how much of a hassle it is to extract data from the database I realized I wanted something leaner. This new portfolio uses AngularJS to feel fast AF.",
     "github_link": "https://github.com/tomhanlon/portfolio",
-    "image_url": "https://unsplash.it/728/489?random"
+    "image_url": "/img/portfolio-detail.png"
   },
   {
     "name": "iVote",
