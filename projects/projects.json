@@ -1,6 +1,7 @@
 [
   {
     "name": "This Very Portfolio",
+    "image_title": "Whoa, meta.",
     "thumbnail_url": "/img/portfolio-thumbnail.png",
     "categories": ["angular", "javascript"],
     "description": "The first version of my portfolio was built on Wordpress but after seeing how much of a hassle it is to extract data from the database I realized I wanted something leaner. This new portfolio uses AngularJS to feel fast AF.",
@@ -9,14 +10,16 @@
   },
   {
     "name": "iVote",
-    "thumbnail_url": "https://unsplash.it/230/184?random",
+    "image_title": "Keeping young people on their phones",
+    "thumbnail_url": "/img/ivote-thumbnail.jpg",
     "categories": ["ruby on rails"],
     "description": "I was part of a three-person team that built iVote, a Ruby on Rails application designed to allow users to register to vote by text message. After texting 'Register' to a shortcode (which interfaces with the application through use of <a href='http://cdyne.com/api/phone/sms/' target='_blank'>CDYNE's SMS API</a>), users are instructed to provide mailing address information for volunteers to send them voter registration cards. <br>Local press coverage:<br><ul><li><a href='http://www.govtech.com/dc/articles/Travis-County-Texas-Entices-Millennials-to-Register-to-Vote-via-Text.html' target='_blank'>Travis County, Texas, Entices Millennials to Register to Vote via Text</a></li><li><a href='http://kut.org/post/you-can-now-register-vote-text-travis-county' target='_blank'>You Can Now Register to Vote by Text in Travis County</a></li><li><a href='http://www.austinchronicle.com/news/2015-08-14/travis-voter-registrar-tests-text-request/' target='_blank'>Travis Voter Registrar Tests \"Text Request\"</a></li></ul>",
-    "image_url": "https://unsplash.it/728/489?random"
+    "image_url": "/img/ivote-detail.jpg"
   },
   {
     "name": "63rd Street Productions",
-    "thumbnail_url": "https://unsplash.it/230/184?random",
+    "image_title": "Saugatuck, Michigan's Premier Theater",
+    "thumbnail_url": "/img/63rd-thumbnail.jpg",
     "categories": ["ruby on rails"],
     "description": "A friend and I built a Ruby on Rails app for his friend's uncle who was in charge of a small local theater company in Michigan.",
     "image_url": "https://unsplash.it/728/489?random",
@@ -25,6 +28,7 @@
   },
   {
     "name": "Carewell",
+    "image_title": "Ok, who are these people?",
     "thumbnail_url": "/img/carewell-thumbnail.png",
     "categories": ["ruby on rails"],
     "description": "An older student project, Carewell is a Ruby on Rails application designed to manage logistics around the care for elderly family members.",
@@ -34,6 +38,7 @@
   },
   {
     "name": "Weatherpane",
+    "image_title": "You've got to stay dry.",
     "thumbnail_url": "/img/weatherpane-thumbnail.jpg",
     "categories": ["geolocation", "api", "ruby", "sinatra"],
     "description": "This was a quick weekend project my pal Tejas Rawal and I built just for fun. It uses Javascript to grab a user's location coordinates, request weather info for that location and then redirect user to a page with a relevant background for current weather conditions.",
@@ -43,6 +48,7 @@
   },
   {
     "name": "Babyloader",
+    "image_title": "Coming soon.",
     "thumbnail_url": "https://unsplash.it/230/184?random",
     "categories": ["html5", "javascript"],
     "description": "This was another quick 'n dirty side project -- a loading bar for a friend who was having a baby. Completely useless but maybe a little fun.",
@@ -52,11 +58,12 @@
   },
   {
     "name": "Brisket Battle",
-    "thumbnail_url": "https://unsplash.it/230/184?random",
+    "image_title": "Who's got the best brisket?",
+    "thumbnail_url": "/img/bbq-battle-thumbnail.png",
     "categories": ["ruby on rails"],
     "description": "Here we've got another project that was just for fun--we ordered lunch and a friend and I scaffold a Rails app to quickly count votes on which barbecue place was the crowd favorite. Looking at this now, we could have easily validated a vote by setting a cookie (or requiring a login) but that seemed a little too much for a quick, casual poll.",
     "live_link": "http://bbq-battle.herokuapp.com/",
     "github_link": "https://github.com/tomhanlon/bbq-battle",
-    "image_url": "https://unsplash.it/728/489?random"
+    "image_url": "/img/bbq-battle-detail.png"
   }
 ]
