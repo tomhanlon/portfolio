@@ -1,5 +1,7 @@
 <div class="main">
-	<div class="main-image"></div>
+	<div class="main-image">
+		<img src="img/main.jpg" />
+	</div>
 	<div class="projects-container">
 		<div class="project" ng-repeat="project in projects | filter: query">
 			<div class="project-thumbnail">
@@ -12,5 +14,5 @@
 				<p>{{project.description | limitTo: 115}}{{project.description.length > 20 ? '...' : ''}}</p>
 			</div>
 		</div>
-	</div>	
+	</div>
 </div>
